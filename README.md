@@ -1,4 +1,4 @@
-# random-number-generator
+# Random Number Generator
 My first app built with Python.
 
 This program generates a number from a range you can input. 
