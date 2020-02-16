@@ -8,7 +8,6 @@ answer = randint(int(sys.argv[1]), int(sys.argv[2]))
 # check that input is a number within given range
 while True:
     try:
-        print(answer)
         # input from user
         guess = int(input(f'guess a number {sys.argv[1]}~{sys.argv[2]}:  '))
         if int(sys.argv[1]) <= guess <= int(sys.argv[2]):
